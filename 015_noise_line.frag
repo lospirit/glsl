@@ -18,7 +18,7 @@ void main(){
     vec3 col = vec3(0.0, 0.0, 0.0);
 
     float cols = 1.;
-    float freq = random(floor(u_time)) - abs(atan(u_time) * 2.1);
+    float freq = abs(atan(u_time) * 0.05);
     // float t = 60. + u_time * (1.0 - freq) * 30.;
     float t = u_time * 4.;
 
